@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <div class="res">
+                <input type="text" id="input" name="result"></input>
+            </div>
+            <table>
+                <tr>
+                    <td><button id="clear" class="delete">C</button></td>
+                    <td><button id="delete" class="delete">DE</button></td>
+                    <td><button class="operator">/</button></td>
+                    <td><button class="operator">*</button></td>
+                </tr>
+                <tr>
+                    <td><button class="number">7</button></td>
+                    <td><button class="number">8</button></td>
+                    <td><button class="number">9</button></td>
+                    <td><button class="operator">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="number">4</button></td>
+                    <td><button class="number">5</button></td>
+                    <td><button class="number">6</button></td>
+                    <td><button class="operator">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="number">1</button></td>
+                    <td><button class="number">2</button></td>
+                    <td><button class="number">3</button></td>
+                    <td rowspan="2"><button class="equal">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="number zero">0</button></td>
+                    <td><button class="number">.</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
